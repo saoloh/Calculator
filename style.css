@@ -1,0 +1,45 @@
+body .container{
+    background-color: black;
+    width: 300px;
+    height: 500px;
+    margin: 200px auto;
+    border-radius: 5%;
+}
+body .container .display{
+    background-color: aliceblue;
+    height: 50px;
+    width: 80%;
+    margin: 50px 30px;
+    display: inline-block;
+    align-items: center;
+    border-radius: 10%;
+}
+body .container .btns{
+    display: flex;
+    height: 450px;
+    width: 300px;
+    margin: 0 10px;
+}
+body .container .btns .operators{
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 100px;
+    display: block;
+
+}
+body .container .btns .operators button{
+    height: 50px;
+    width: 50px;
+}
+body .container .btns .numbers{
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 200px;
+    display: block;
+}
+body .container .btns .numbers button{
+    height: 50px;
+    width: 50px;
+}
